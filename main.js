@@ -2,7 +2,7 @@ import './style.css'
 import { adding as sum, library } from '../my-library'
 // import * as libr from '../my-library'
 import validator from "validator" 
-// import { basicMaths } from 'basic-maths';
+
 
 const emailForm = {
   form: document.querySelector(".email-submit-form"),
