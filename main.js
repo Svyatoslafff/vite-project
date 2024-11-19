@@ -17,8 +17,15 @@ const emailForm = {
   }
 };
 
-
-// library.logSmth(sum(123, 5345, '223'), 'fsdfsdf', 43);
-// libr.library.logSmth("dasdas");
-
 emailForm.form.addEventListener('submit', emailForm.validateEmail);
+
+
+const menu = {
+  menuButton: document.querySelector("button[data-menu]"),
+  menuContainer: document.querySelector(".menu"),
+  toggleMenu() {
+    menu.menuContainer.classList.toggle("active-menu");
+  }
+}
+
+menu.menuButton.addEventListener('click', menu.toggleMenu);

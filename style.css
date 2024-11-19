@@ -97,3 +97,22 @@ button:focus-visible {
 } */
 
 
+.menu-container{
+  position: relative;
+}
+
+.menu{
+  position: fixed;
+  left: -100%;
+  background-color: aqua;
+  transition: left 250ms linear;
+}
+
+.active-menu{
+  left: 0;
+
+}
+
+button[data-menu]{
+  padding: 20px;
+}
