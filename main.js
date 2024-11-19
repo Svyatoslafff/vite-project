@@ -18,7 +18,7 @@ const emailForm = {
 };
 
 
-library.logSmth(sum(123, 5345, '223'), 'fsdfsdf', 43);
+// library.logSmth(sum(123, 5345, '223'), 'fsdfsdf', 43);
 // libr.library.logSmth("dasdas");
 
 emailForm.form.addEventListener('submit', emailForm.validateEmail);
