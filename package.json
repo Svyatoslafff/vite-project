@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --base=/vite-project/",
-    "build": "vite build",
+    "dev": "vite",
+    "build": "vite build --base=/vite-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -14,5 +14,6 @@
   "dependencies": {
     "validator": "^13.12.0",
     "vite-plugin-html-inject": "^1.1.2"
-  }
+  },
+  "author": "Svyatoslav Komarnytskyi <svjatoslavkom12@gmail.com>"
 }
